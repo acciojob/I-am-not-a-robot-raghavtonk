@@ -21,7 +21,12 @@ img {
   border: 5px solid #555;
   width: 10%;
 }
-
+main{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+}
 .flex {
   display: flex;
   justify-content: center;
@@ -37,4 +42,10 @@ p {
 
 button {
   margin: 20px;
+}
+#reset{
+	display:none;
+}
+#verify{
+	display:none;
 }
